@@ -6,7 +6,7 @@ Canlı ve kolay kullanım: [tezatlas.com/weba11yrobot](https://tezatlas.com/weba
 
 ## Yerelde kullanım
 
-Node.js 20.11+ gerekir.
+Node.js 20.18.1+ gerekir.
 
 ```bash
 npm install
