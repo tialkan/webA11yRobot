@@ -1,0 +1,15 @@
+{
+  "name": "weba11yrobot",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Kanıta dayalı, sınırlı web erişilebilirliği ön denetimi ve sayfaya özgü manuel test planı.",
+  "exports": { ".": "./src/audit.js", "./report": "./src/report.js" },
+  "bin": { "weba11yrobot": "./bin/weba11yrobot.js" },
+  "files": ["src", "bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=20.11" },
+  "dependencies": { "cheerio": "1.1.2" },
+  "scripts": { "test": "node --test", "check": "node --check src/audit.js && node --check src/net.js && node --check src/report.js && npm test" },
+  "repository": { "type": "git", "url": "git+https://github.com/tialkan/webA11yRobot.git" },
+  "homepage": "https://tezatlas.com/weba11yrobot"
+}
